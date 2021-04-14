@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/reactive-search/static/css/main.530080af.chunk.css",
+    "main.js": "/reactive-search/static/js/main.32d41a10.chunk.js",
+    "main.js.map": "/reactive-search/static/js/main.32d41a10.chunk.js.map",
+    "runtime-main.js": "/reactive-search/static/js/runtime-main.486ec8e7.js",
+    "runtime-main.js.map": "/reactive-search/static/js/runtime-main.486ec8e7.js.map",
+    "static/js/2.97a714fb.chunk.js": "/reactive-search/static/js/2.97a714fb.chunk.js",
+    "static/js/2.97a714fb.chunk.js.map": "/reactive-search/static/js/2.97a714fb.chunk.js.map",
+    "static/js/3.28a39587.chunk.js": "/reactive-search/static/js/3.28a39587.chunk.js",
+    "static/js/3.28a39587.chunk.js.map": "/reactive-search/static/js/3.28a39587.chunk.js.map",
+    "index.html": "/reactive-search/index.html",
+    "static/css/main.530080af.chunk.css.map": "/reactive-search/static/css/main.530080af.chunk.css.map",
+    "static/js/2.97a714fb.chunk.js.LICENSE.txt": "/reactive-search/static/js/2.97a714fb.chunk.js.LICENSE.txt",
+    "static/media/app.css": "/reactive-search/static/media/Quicksand-Regular.2836db84.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.486ec8e7.js",
+    "static/js/2.97a714fb.chunk.js",
+    "static/css/main.530080af.chunk.css",
+    "static/js/main.32d41a10.chunk.js"
+  ]
+}
