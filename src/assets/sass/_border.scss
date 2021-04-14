@@ -1,0 +1,48 @@
+//border
+.border-all {
+	border: $border1;
+}
+.border-top {
+	border-top: $border1;
+}
+.border-bottom {
+	border-bottom: $border1;
+}
+.border-left {
+	border-left: 1px #999 solid;
+}
+.border-right {
+	border-right: 1px #999 solid;
+}
+.border-no {
+	border: $no-border;
+}
+
+.border-all-light {
+	border: 1px solid #edf1f2;
+}
+.border-bottom-light {
+	border-bottom: 1px solid #edf1f2;
+}
+.border-top-light {
+	border-top: 1px solid #edf1f2;
+}
+
+.bdr-all {
+	border: $border1;
+}
+.bdr-top {
+	border-top: $border1;
+}
+.bdr-bottom {
+	border-bottom: $border1;
+}
+.bdr-left {
+	border-left: $border1;
+}
+.bdr-right {
+	border-right: $border1;
+}
+.bdr-no {
+	border: $no-border;
+}

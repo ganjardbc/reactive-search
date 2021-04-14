@@ -1,0 +1,108 @@
+.search-picker {
+    position: relative;
+    width: 300px;
+    @include animate_2();
+    // &.active {
+    //     width: 300px;
+    //     @include animate_2();
+    //     .search-form {
+    //         .search-input {
+    //             position: absolute;
+    //             top: 0;
+    //             left: 33px;
+    //             @include animate_2();
+    //         }
+    //         .search-button {
+    //             .btn {
+    //                 .icn {
+    //                     @include animate_1();
+    //                     -webkit-transform: rotate(45deg);
+    //                        -moz-transform: rotate(45deg);
+    //                         -ms-transform: rotate(45deg);
+    //                          -o-transform: rotate(45deg);
+    //                             transform: rotate(45deg);
+    //                 }
+    //             }
+    //         }
+    //     }
+    // }
+    .search-form {
+        position: relative;
+        width: 100%;
+        height: 33px;
+        border-radius: 5px;
+        overflow: hidden;
+        display: flex;
+        flex-wrap: nowrap;
+        .search-button {
+            position: relative;
+            width: 33px;
+            .btn {
+                background-color: rgba($color: #fff, $alpha: 0.0);
+                color: $txt-84-color;
+                border-radius: 0;
+                height: 33px;
+                &:hover {
+                    background-color: rgba($color: #f5f5f5, $alpha: 1);
+                    @include animate_1();
+                }
+                .icn {
+                    @include animate_1();
+                    -webkit-transform: rotate(0deg);
+                       -moz-transform: rotate(0deg);
+                        -ms-transform: rotate(0deg);
+                         -o-transform: rotate(0deg);
+                            transform: rotate(0deg);
+                }
+            }
+        }
+        .search-input {
+            position: relative;
+            top: 0;
+            left: 0;
+            width: 100%;
+            @include animate_2();
+            .txt {
+                width: calc(100% - 20px);
+                height: 33px;
+                border-radius: 0;
+                background-color: rgba($color: #fff, $alpha: 0.0);
+                color: $txt-84-color;
+                font-size: 12px;
+                padding: 0 10px;
+                font-weight: normal;
+                &::placeholder {
+                    color: rgba($color: #000, $alpha: 0.54);
+                }
+                &:-ms-input-placeholder {
+                    color: rgba($color: #000, $alpha: 0.54);
+                }
+                &::-ms-input-placeholder {
+                    color: rgba($color: #000, $alpha: 0.54);
+                }
+            }
+        }
+    }
+    .search-content {
+        position: absolute;
+        width: 100%;
+        top: 25px;
+        padding-top: 25px;
+        padding-bottom: 10px;
+        background-color: #fff;
+        box-shadow: $shadow-small;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        display: none;
+        &.active {
+            display: block;
+        }
+        .search-place {
+            position: relative;
+            width: 100%;
+            height: 300px;
+            overflow-y: auto;
+            @include transparantScrollBarHover();
+        }
+    }
+}

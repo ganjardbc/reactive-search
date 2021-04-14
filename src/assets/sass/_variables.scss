@@ -1,0 +1,476 @@
+//fonts
+@font-face {
+	font-family: "Graphik";
+    src: url("../fonts/Graphik/Graphik-Regular.ttf");
+}
+@font-face {
+	font-family: "GraphikLight";
+    src: url("../fonts/Graphik/Graphik-Light.ttf");
+}
+@font-face {
+	font-family: "GraphikThin";
+    src: url("../fonts/Graphik/Graphik-Thin.ttf");
+}
+@font-face {
+	font-family: "GraphikSuper";
+    src: url("../fonts/Graphik/Graphik-Super.ttf");
+}
+@font-face {
+	font-family: "GraphikSemibold";
+    src: url("../fonts/Graphik/Graphik-Semibold.ttf");
+}
+@font-face {
+	font-family: "GraphikMedium";
+    src: url("../fonts/Graphik/Graphik-Medium.ttf");
+}
+@font-face {
+	font-family: "GraphikExtralight";
+    src: url("../fonts/Graphik/Graphik-Extralight.ttf");
+}
+@font-face {
+	font-family: "GraphikBold";
+    src: url("../fonts/Graphik/Graphik-Bold.ttf");
+}
+@font-face {
+	font-family: "GraphikBlack";
+    src: url("../fonts/Graphik/Graphik-Black.ttf");
+}
+@font-face {
+	font-family: "FontFirst";
+    src: url("../fonts/Nunito_Sans/NunitoSans-Regular.ttf");
+}
+@font-face {
+	font-family: "FontFirstBold";
+    src: url("../fonts/Nunito_Sans/NunitoSans-Bold.ttf");
+}
+@font-face {
+	font-family: "FontFirstExtraBold";
+    src: url("../fonts/Nunito_Sans/NunitoSans-ExtraBold.ttf");
+}
+@font-face {
+	font-family: "FontFirstBlack";
+    src: url("../fonts/Nunito_Sans/NunitoSans-Black.ttf");
+}
+@font-face {
+	font-family: "FontFirst2";
+    src: url("../fonts/Nunito_Sans/NunitoSans-Regular.ttf");
+}
+@font-face {
+	font-family: "FontFirst3";
+    src: url("../fonts/Quicksand/Quicksand-Regular.ttf");
+}
+
+//variable
+$col-full : 800px;
+$max-width : 800px;
+$std-width : 500px;
+$min-width : 300px;
+
+//radius
+$radius: 15px;
+$radius-2: 7.5px;
+$radius-3: 5px;
+
+//color
+$min-color : #394263;// #bd081c;
+$sek-color : #fff;
+$pos-color : #529ecc;
+$del-color : #9a0000;
+$err-color : #ff0000;
+$pri-color : #f3f3f3;
+$txt-84-color: rgba(0,0,0,0.84);
+$txt-54-color: #262d2e; //rgba(0,0,0,0.54);
+$txt-34-color: #636f73; //rgba(0,0,0,0.34);
+$txt-14-color: #78858a;
+$txt-min-color: rgba(0,0,0,0.84);
+$txt-sek-color: rgba(0,0,0,0.54);
+$txt-size-title: 22px;
+$txt-size-desc: 14px;
+$txt-size-desc: 14px;
+$txt-size-big: 32px;
+$txt-size-12px: 12px;
+$txt-size-14px: 14px;
+$txt-size-16px: 16px;
+$txt-size-18px: 18px;
+$txt-size-20px: 20px;
+
+// color
+$blue: #394263;
+$blueBlack: #394263;
+$red: #e74c3c;
+$orange: #f39c12;
+$green: #2B9133;
+$greenBlack: #26862e;
+$teal: #1abc9c;
+$yellow: #f1c40f;
+$purple: #9b59b6;
+$purpleBlack: #8e44ad;
+$magenta: #e84393;
+
+$border: 1px rgba(0,0,0,0.1) solid;
+$border1: 1px rgba(0,0,0,0.1) solid;
+$border2: 1px rgba(0,0,0,0.2) solid;
+$no-border: 0 #fff solid;
+
+$shadow: 0 5px 20px rgba(154,161,171,.25);
+$shadow-small: 0 3px 10px rgba(154,161,171,.25);
+$shadow-big: 0 5px 20px rgba(154,161,171,.50);
+$shadow-line: 0 2px 10px rgba(0,0,0,0.14);
+
+// color
+.gradient-purple {
+    background: linear-gradient(to bottom, $purple 10%, $red 100%);
+    color: #fff;
+}
+.gradient-blue {
+    background: linear-gradient(to bottom, $blue 10%, $purple 100%);
+    color: #fff;
+}
+.gradient-red {
+    background: linear-gradient(to bottom, $red 10%, $magenta 100%);
+    color: #fff;
+}
+.gradient-orange {
+    background: linear-gradient(to bottom, $orange 10%, $magenta 100%);
+    color: #fff;
+}
+
+.background-white {
+    background-color: #fff !important;
+    &.transparant {
+        background-color: rgba($color: #fff, $alpha: 0.74) !important;
+    }
+}
+.background-grey {
+    background-color: #fafbfe !important;
+}
+.background-dark-grey {
+    background-color: #f5f5f5 !important;
+}
+
+.background-blue {
+    background-color: $blue !important;
+    color: #fff !important;
+    &.transparant {
+        background-color: rgba($color: $blue, $alpha: 0.74) !important;
+    }
+}
+.background-red {
+    background-color: $red !important;
+    color: #fff !important;
+    &.transparant {
+        background-color: rgba($color: $red, $alpha: 0.74) !important;
+    }
+}
+.background-green {
+    background-color: $green !important;
+    color: #fff !important;
+    &.transparant {
+        background-color: rgba($color: $green, $alpha: 0.74) !important;
+    }
+}
+.background-orange {
+    background-color: $orange !important;
+    color: #fff !important;
+    &.transparant {
+        background-color: rgba($color: $orange, $alpha: 0.74) !important;
+    }
+}
+.background-purple {
+    background-color: $purple !important;
+    color: #fff !important;
+    &.transparant {
+        background-color: rgba($color: $purple, $alpha: 0.74) !important;
+    }
+}
+.background-post {
+    background-color: $pos-color !important;
+    color: #fff !important;
+    &.transparant {
+        background-color: rgba($color: $pos-color, $alpha: 0.74) !important;
+    }
+}
+
+.background-transaparant {
+    background-color: rgba(0,0,0,0) !important;
+}
+.background-transaparant-14 {
+    background-color: rgba(0,0,0,0.14) !important;
+}
+.background-transaparant-34 {
+    background-color: rgba(0,0,0,0.34) !important;
+}
+.background-transaparant-white {
+    background-color: rgba(225,225,225,0.34) !important;
+}
+
+.background-grey-hover {
+    &:hover {
+        -webkit-transition: 0.39;
+           -moz-transition: 0.39;
+            -ms-transition: 0.39;
+             -o-transition: 0.39;
+                transition: 0.39;
+        background-color: #f8f8f8;
+    }
+}
+
+.color-white {
+    color: #fff;
+}
+.color-black {
+    color: $txt-84-color;
+}
+.color-red {
+    color: $red;
+    a {
+       color: $red;
+       &:hover {
+        text-decoration: underline;
+       } 
+    }
+}
+.color-blue {
+    color: $blue;
+    a {
+       color: $blue;
+       &:hover {
+        text-decoration: underline;
+       } 
+    }
+}
+.color-green {
+    color: $green;
+    a {
+       color: $green;
+       &:hover {
+        text-decoration: underline;
+       } 
+    }
+}
+.color-orange {
+    color: $orange;
+    a {
+       color: $orange;
+       &:hover {
+        text-decoration: underline;
+       } 
+    }
+}
+.color-post {
+    color: $pos-color;
+    a {
+       color: $pos-color;
+       &:hover {
+        text-decoration: underline;
+       } 
+    }
+}
+.color-grey {
+    color: rgba(0,0,0,0.14);
+}
+.color-light-grey {
+    color: #ccc;
+}
+.color-dark-grey {
+    color: #999;
+}
+
+.border-radius {
+    border-radius: 10px;
+    // overflow: hidden;
+}
+.border {
+    border: $border;
+}
+// .border-right {
+//     border-right: $border;
+// }
+// .border-left {
+//     border-left: $border;
+// }
+// .border-top {
+//     border-top: $border;
+// }
+// .border-bottom {
+//     border-bottom: $border;
+// }
+
+.shadow {
+    box-shadow: $shadow;
+}
+.shadow-small {
+    box-shadow: $shadow-small;
+}
+
+.content-right {
+    text-align: right;
+    justify-content: right;
+}
+
+.content-center {
+    text-align: center;
+    justify-content: center;
+}
+
+// scrollbar
+@mixin transparantScrollBar() {
+    // normal
+    &::-moz-scrollbar {
+        width: 4px;
+        height: 4px;
+        background-color: rgba(0, 0, 0, 0);
+    }
+    &::-moz-scrollbar-thumb {
+        background-color: rgba(0,0,0,0.1);
+        -moz-border-radius: 1ex;
+        border-radius: 1ex;
+    }
+    &::-moz-scrollbar-corner {
+        background-color: #fff;
+    }
+
+    // webkit
+    &::-webkit-scrollbar {
+        width: 4px;
+        height: 4px;
+        background-color: rgba(0, 0, 0, 0);
+    }
+    &::-webkit-scrollbar-thumb {
+        background-color: rgba(0,0,0,0.1);
+        -webkit-border-radius: 1ex;
+        border-radius: 1ex;
+    }
+    &::-webkit-scrollbar-corner {
+        background-color: #fff;
+    }
+}
+
+@mixin transparantScrollBarHover() {
+    
+    &::scrollbar {
+        width: 0;
+        height: 4px;
+        background-color: rgba(0, 0, 0, 0);
+    }
+    &::scrollbar-thumb {
+        background-color: rgba(0, 0, 0, 0);
+        border-radius: 1ex;
+        border-radius: 1ex;
+    }
+    &::scrollbar-corner {
+        background-color: #fff;
+    }
+
+    &::-webkit-scrollbar {
+        width: 0;
+        height: 4px;
+        background-color: rgba(0, 0, 0, 0);
+    }
+    &::-webkit-scrollbar-thumb {
+        background-color: rgba(0, 0, 0, 0);
+        -webkit-border-radius: 1ex;
+        border-radius: 1ex;
+    }
+    &::-webkit-scrollbar-corner {
+        background-color: #fff;
+    }
+
+    &::-moz-scrollbar {
+        width: 0;
+        height: 4px;
+        background-color: rgba(0, 0, 0, 0);
+    }
+    &::-moz-scrollbar-thumb {
+        background-color: rgba(0, 0, 0, 0);
+        -moz-border-radius: 1ex;
+        border-radius: 1ex;
+    }
+    &::-moz-scrollbar-corner {
+        background-color: #fff;
+    }
+
+    &:hover {
+        &::scrollbar {
+            width: 4px;
+        }
+        &::-webkit-scrollbar {
+            width: 4px;
+        }
+        &::-moz-scrollbar {
+            width: 4px;
+        }
+
+        &::scrollbar-thumb {
+            @include animate_1();
+            background-color: rgba(0, 0, 0, 0.1);
+            width: 4px;
+        }
+        &::-webkit-scrollbar-thumb {
+            @include animate_1();
+            background-color: rgba(0, 0, 0, 0.1);
+            width: 4px;
+        }
+        &::-moz-scrollbar-thumb {
+            @include animate_1();
+            background-color: rgba(0, 0, 0, 0.1);
+            width: 4px;
+        }
+    }
+}
+
+@mixin greyScrollBar() {
+    &::scrollbar {
+        width: 4px;
+        height: 4px;
+        background-color: rgba(0, 0, 0, 0.1);
+    }
+    &::scrollbar-thumb {
+        background-color: rgba(0, 0, 0, 0.1);
+        border-radius: 1ex;
+        border-radius: 1ex;
+    }
+    &::scrollbar-corner {
+        background-color: #fff;
+    }
+
+    &::-webkit-scrollbar {
+        width: 4px;
+        height: 4px;
+        background-color: rgba(0, 0, 0, 0.1);
+    }
+    &::-webkit-scrollbar-thumb {
+        background-color: rgba(0, 0, 0, 0.1);
+        -webkit-border-radius: 1ex;
+        border-radius: 1ex;
+    }
+    &::-webkit-scrollbar-corner {
+        background-color: #fff;
+    }
+
+    &::-moz-scrollbar {
+        width: 4px;
+        height: 4px;
+        background-color: rgba(0, 0, 0, 0.1);
+    }
+    &::-moz-scrollbar-thumb {
+        background-color: rgba(0, 0, 0, 0.1);
+        -webkit-border-radius: 1ex;
+        border-radius: 1ex;
+    }
+    &::-moz-scrollbar-corner {
+        background-color: #fff;
+    }
+}
+
+.change-scrollbar {
+    @include transparantScrollBarHover();
+    scroll-behavior: smooth;
+    overflow-y: overlay;
+}
+
+.change-scrollbar-normal {
+    @include greyScrollBar();
+    scroll-behavior: smooth;
+    overflow-y: overlay;
+}

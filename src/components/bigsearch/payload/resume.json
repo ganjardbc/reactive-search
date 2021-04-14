@@ -1,0 +1,197 @@
+{
+    "name": "Jeff Holloway",
+    "role": "Millitary Police",
+    "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "info": [
+        {
+            "label": "Personal Info",
+            "data": [
+                {
+                    "label": "Phone",
+                    "value": "672-565-7941"
+                },
+                {
+                    "label": "E-mail",
+                    "value": "holloway.j.jeff@gmail.com"
+                },
+                {
+                    "label": "Date of Birth",
+                    "value": "1978-05-24"
+                },
+                {
+                    "label": "LinkedIn",
+                    "value": "linkedin.com/holloway.j.jeff"
+                }
+            ]
+        },
+        {
+            "label": "Skills",
+            "data": [
+                {
+                    "value": "Leadership",
+                    "stars": 4
+                },
+                {
+                    "value": "Communication Skills",
+                    "stars": 4
+                },
+                {
+                    "value": "Law Enforcement and Public Safety",
+                    "stars": 4
+                },
+                {
+                    "value": "Emmergance Planning and Response",
+                    "stars": 4
+                },
+                {
+                    "value": "Security and Surveillance Operations",
+                    "stars": 4
+                },
+                {
+                    "value": "Firearms Safety and Handling",
+                    "stars": 3
+                },
+                {
+                    "value": "Defensive Tactics",
+                    "stars": 4
+                },
+                {
+                    "value": "Coaching and Menitoring",
+                    "stars": 3
+                },
+                {
+                    "value": "Team Development",
+                    "stars": 3
+                },
+                {
+                    "value": "Conflict Management",
+                    "stars": 4
+                }
+            ]
+        },
+        {
+            "label": "Languages",
+            "data": [
+                {
+                    "value": "Spanish",
+                    "stars": 4
+                },
+                {
+                    "value": "Portuguese",
+                    "stars": 1
+                },
+                {
+                    "value": "Arabic",
+                    "stars": 1
+                }
+            ]
+        }
+    ],
+    "more": [
+        {
+            "label": "Experience",
+            "data": [
+                {
+                    "date": "2013-02 - 2017-02",
+                    "label": "MILITARY POLICE SERGEANT",
+                    "desc": "US Army Reserves",
+                    "list": {
+                        "label": "Team Leader",
+                        "data": [
+                            {"title": "Lead and supervised teams in support of security and operations."},
+                            {"title": "Provided surveilance, safety inspections, and asset security checks."},
+                            {"title": "Trained team on individual and collective security tasks."},
+                            {"title": "Handled administrative and logistical needs within the team."},
+                            {"title": "Worked with superiors to accomplish team objectives."},
+                            {"title": "Provided oversight of soldiers and equipment."},
+                            {"title": "Handled disciplinary issues within the team."}
+                        ]
+                    }
+                },
+                {
+                    "date": "2011-07 - 2012-11",
+                    "label": "SECURITY SPECIALIST",
+                    "desc": "US Army Reserves",
+                    "list": {
+                        "label": "Guard",
+                        "data": [
+                            {"title": "Assisted with supervision, accountability, and management of internees."},
+                            {"title": "Provided external security to internment corrections facility."},
+                            {"title": "Provided security and surveilance of headquarters."}
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "label": "Education",
+            "data": [
+                {
+                    "date": "2016-11 - present",
+                    "label": "University of Arizona",
+                    "sublabel": "Public Relations - M.A."
+                },
+                {
+                    "date": "2011-02 - 2014-04",
+                    "label": "University of Phoenix",
+                    "sublabel": "Criminal Justice - B.A."
+                },
+                {
+                    "date": "2008-05 - 2010-05",
+                    "label": "United States Army Military Police School",
+                    "sublabel": "Diploma"
+                }
+            ]
+        },
+        {
+            "label": "Certificates and Clearances",
+            "data": [
+                {
+                    "date": "2015-03",
+                    "sublabel": "HAZMAT Familiarization and Safety Transportation"
+                },
+                {
+                    "date": "2011-04",
+                    "sublabel": "Weapons certifications: MP 9mm pistol, M4 carbine, 12-gauge shotgun, Taser X26/M26"
+                },
+                {
+                    "date": "2011-03",
+                    "sublabel": "Security Clearance"
+                },
+                {
+                    "date": "2010-12",
+                    "sublabel": "Certified First Aid"
+                }
+            ]
+        },
+        {
+            "label": "Courses",
+            "data": [
+                {
+                    "date": "2016-09",
+                    "sublabel": "Common Remotely Operated Weapon Station (CROWS) / Train the Trainer (T-3)"
+                },
+                {
+                    "date": "2016-09",
+                    "sublabel": "Common Remotely Operated Weapon Station (CROWS) / Operators New Equipment (OPNET)"
+                },
+                {
+                    "date": "2015-10",
+                    "sublabel": "Basic Leadership Course"
+                },
+                {
+                    "date": "2014-07",
+                    "sublabel": "HAZMAT Familiarization / Safety in Transportation"
+                },
+                {
+                    "date": "2012-11",
+                    "sublabel": "Risk Assessment"
+                },
+                {
+                    "date": "2011-06",
+                    "sublabel": "Physical Readliness Training"
+                }
+            ]
+        }
+    ]
+}

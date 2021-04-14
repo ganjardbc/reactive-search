@@ -1,0 +1,21 @@
+.card-employee {
+    border: 1px #ccc solid;
+}
+.card-employee:hover {
+    border: 1px red solid;
+}
+.card-employee:hover .card-employee-text {
+    color: red;
+}
+
+.resume-list {
+    position: relative;
+    width: calc(100% - 30px);
+    padding: 10px 15px;
+}
+
+.resume-list li {
+    padding-bottom: 10px;
+    font-size: 13px;
+    color: #555;
+}

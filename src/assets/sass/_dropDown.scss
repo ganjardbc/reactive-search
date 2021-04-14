@@ -1,0 +1,243 @@
+$dd-height: 45px;
+
+.drop-down {
+    position: relative;
+    width: 100%;
+    height: $dd-height;
+    background-color: #fff;
+    &:hover {
+        .dd-border {
+            // border: $border2;
+            border-bottom: 2px $blue solid;
+            border-radius: 0;
+            cursor: pointer;
+        }
+        // .dd-place {
+        //     border-left: $border2;
+        //     border-right: $border2;
+        //     border-bottom: $border2;
+        // }
+    }
+    &.theme-2 {
+        background-color: #fff;
+        .dd-border {
+            border-bottom: 0;
+            border-radius: $dd-height;
+        }
+    }
+    &.active {
+        z-index: 10;
+        .dd-selected {
+            .dd-icon {
+                .icon {
+                    &.border-white {
+                        &:after {
+                            top: 7px,
+                        }
+                    }
+                    &:after {
+                        top: 10px;
+                        @include animate_1();
+                        -webkit-transform: rotate(-135deg);
+                           -moz-transform: rotate(-135deg);
+                            -ms-transform: rotate(-135deg);
+                             -o-transform: rotate(-135deg);
+                                transform: rotate(-135deg);
+                    }
+                }
+            }
+        }
+        .dd-border {
+            border-bottom: 2px $blue solid;
+            cursor: pointer;
+        }
+        .dd-place {
+            // border-left: $border2;
+            // border-right: $border2;
+            // border-bottom: $border2;
+            display: block;
+            @include animate_1();
+        }
+    }
+    .dd-border {
+        border-bottom: 2px rgba(0,0,0,0.1) solid;
+        border-radius: 0;
+    }
+    .dd-selected {
+        position: relative;
+        width: 100%;
+        height: $dd-height;
+        display: flex;
+        .dd-title {
+            position: relative;
+            width: calc(100% - 10px);
+            padding: 0 5px;
+            .title {
+                @include post_top(absolute);
+                left: 5px;
+                font-size: 13px;
+                font-weight: 600;
+                color: $txt-54-color;
+                text-transform: capitalize;
+            }
+        }
+        .dd-icon {
+            width: $dd-height;
+            .icon {
+                position: absolute;
+                width: 15px;
+                height: 15px;
+                border-radius: 2px;
+                right: 10px;
+                top: 8px;
+                opacity: 1;
+                &.border-white {
+                    right: 2px;
+                    &:after {
+                        border: solid rgba($color: #555, $alpha: 0.7);
+                        border-width: 0 1.5px 1.5px 0;
+                        top: 2px,
+                    }
+                }
+                &:after {
+                    @include animate_1();
+                    content: "";
+                    position: absolute;
+                    left: 0;
+                    top: 8px;
+                    width: 7px;
+                    height: 7px;
+                    border: solid rgba($color: #000, $alpha: 0.7);
+                    border-width: 0 1.5px 1.5px 0;
+                    -webkit-transform: rotate(45deg);
+                       -moz-transform: rotate(45deg);
+                        -ms-transform: rotate(45deg);
+                         -o-transform: rotate(45deg);
+                            transform: rotate(45deg);
+                }
+            }
+        }
+    }
+    .dd-place {
+        position: absolute;
+        top: 44px;
+        left: 0;
+        width: calc(100% - 2px);
+        // border-left: $border1;
+        // border-right: $border1;
+        // border-bottom: $border1;
+        background-color: #fff;
+        box-shadow: $shadow;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        overflow: hidden;
+        display: none;
+        text-align: left;
+        &.theme-2 {
+            ul {
+                li {
+                    text-align: left;
+                    &:hover {
+                        background-color: $green;
+                        color: #fff;
+                    }
+                    &.selected {
+                        background-color: $green;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+        ul {
+            max-height: 200px;
+            overflow-y: auto;
+            @include transparantScrollBar();
+            li {
+                position: relative;
+                list-style: none;
+                width: calc(100% - 30px);
+                padding: 10px 15px;
+                font-size: 13px;
+                color: $txt-54-color;
+                text-align: left;
+                &:hover {
+                    background-color: $blue;
+                    color: #fff;
+                }
+                &.selected {
+                    background-color: $blue;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
+
+// date time picker
+.m-input-moment {
+    .options {
+        // options
+        button {
+            border: 1px solid $blue !important;
+            color: $blue !important;
+            &.is-active {
+                background-color: $blue !important;
+                color: #fff !important;
+            }
+        }
+    }
+    .tabs {
+        .tab {
+            .toolbar {
+                button {
+                    border: 1px solid $blue !important;
+                    background-color: $blue !important;
+                    color: #fff !important;
+                }
+                .current-date {
+                    color: $blue !important;
+                }
+            }
+        }
+    }
+    .m-calendar {
+        thead {
+            td {
+                color: $blue !important;
+            }
+        }
+        tbody {
+            td {
+                &:hover {
+                    background-color: $blue !important;
+                    color: #fff !important;
+                }
+            }
+        }
+        .current-day {
+            color: $blue !important;
+        }
+    }
+    .m-time {
+        .time {
+            background-color: $blue !important;
+            color: #fff !important;
+        }
+        .time-text {
+            color: $blue !important;
+        }
+        .separater {
+            color: $blue !important;
+        }
+        .u-slider-time {
+            .value {
+                background-color: $blue !important;
+            }
+            .handle {
+                &::after {
+                    border: 3px solid $blue !important;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,83 @@
+[
+    {
+        "label": "PENDIDIKAN SATUAN PENGAMANAN",
+        "data": [
+            {"key": "garda_utama", "value": "GARDA UTAMA"}, 
+            {"key": "gugus_tugas", "value": "GUGUS TUGAS"}
+        ]
+    },
+    {
+        "label": "PENDIDIKAN FORMAL",
+        "data": [
+            {"key": "SMA/SMK", "value": "SMA/SMK"},
+            {"key": "D2", "value": "D2"},
+            {"key": "D3", "value": "D3"},
+            {"key": "S1", "value": "S1"}, 
+            {"key": "S2", "value": "S2"},
+            {"key": "S3", "value": "S3"}
+        ]
+    },
+    {
+        "label": "SERTIFIKASI",
+        "data": [
+            {"key": "CATS", "value": "CATS"}, 
+            {"key": "JAVA", "value": "JAVA"}
+        ]
+    },
+    {
+        "label": "KEGIATAN KEBENCANAAN",
+        "data": [
+            {"key": "BAKAMLA", "value": "BAKAMLA"}
+        ]
+    },
+    {
+        "label": "PENUGASAN KHUSUS",
+        "data": [
+            {"key": "CONGO", "value": "UNITED NATION - CONGO"}, 
+            {"key": "CIMAHI", "value": "UNITED NATION - CIMAHI"}
+        ]
+    },
+    {
+        "label": "LAMA PENUGASAN KHUSUS",
+        "data": [
+            {"key": "1-5", "value": "1 - 5 TAHUN"}, 
+            {"key": "1-10", "value": "1 - 10 TAHUN"}
+        ]
+    },
+    {
+        "label": "WAWASAN",
+        "data": [
+            {"key": "WAWASAN-A", "value": "WAWASAN-A"}, 
+            {"key": "WAWASAN-B", "value": "WAWASAN-B"},
+            {"key": "WAWASAN-C", "value": "WAWASAN-C"},
+            {"key": "WAWASAN-D", "value": "WAWASAN-D"}
+        ]
+    },
+    {
+        "label": "KEDISIPLINAN",
+        "data": [
+            {"key": "DISIPLIN-A", "value": "DISIPLIN-A"}, 
+            {"key": "DISIPLIN-B", "value": "DISIPLIN-B"},
+            {"key": "DISIPLIN-C", "value": "DISIPLIN-C"},
+            {"key": "DISIPLIN-D", "value": "DISIPLIN-D"}
+        ]
+    },
+    {
+        "label": "LOYALITAS",
+        "data": [
+            {"key": "LOYAL-A", "value": "LOYAL-A"}, 
+            {"key": "LOYAL-B", "value": "LOYAL-B"},
+            {"key": "LOYAL-C", "value": "LOYAL-C"},
+            {"key": "LOYAL-D", "value": "LOYAL-D"}
+        ]
+    },
+    {
+        "label": "MORALITAS",
+        "data": [
+            {"key": "MORAL-A", "value": "MORAL-A"}, 
+            {"key": "MORAL-B", "value": "MORAL-B"},
+            {"key": "MORAL-C", "value": "MORAL-C"},
+            {"key": "MORAL-D", "value": "MORAL-D"}
+        ]
+    }
+]
